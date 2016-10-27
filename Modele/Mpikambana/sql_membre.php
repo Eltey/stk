@@ -1,0 +1,1 @@
+<?phpinclude_once('modele/db.php');$nom=$_POST["nom"];$prenom=$_POST["prenom"];$date=$_POST["date"];$dadet=$_POST["dadet"];$req = $bdd->prepare('INSERT INTO MEMBRES(NOM,PRENOM,DATEN,INTEGRATION) VALUES(:nom,:prenom, :date, :dadet)');$req->execute(array('nom' => $nom,'prenom' => $prenom,'date' => $date,'dadet' =>$dadet));?>

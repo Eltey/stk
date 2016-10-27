@@ -1,0 +1,1 @@
+<?php include_once('Modele/Mpikambana/sql_membre.php');include_once('Vue/Mpikambana/manampy.php');?>

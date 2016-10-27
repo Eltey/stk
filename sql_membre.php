@@ -1,0 +1,1 @@
+<?phpinclude_once('modele/db.php');include_once('manampy.php');$nom=$_POST["nom"];$prenom=$_POST["prenom"];$date=$_POST["date"];$itgr=$_POST["datet"];$req = $bdd->prepare('INSERT INTO MEMBRE(NOM,PRENOM,DATE,INTEGRATION) VALUES(:nom,:prenom, :date, :dadet)');$req->execute(array('nom' => $nom,'prenom' => $prenom,'date' => $date,'integration' =>$dadet));?>
