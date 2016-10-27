@@ -1,0 +1,1 @@
+<?php if(!isset($_GET['section']) OR $_GET['section'] == 'index1'){ include_once('Controleur/insertion.php');}else{		echo'ereur';}?>
