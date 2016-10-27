@@ -1,0 +1,49 @@
+﻿.h{
+height:50px;
+overflow:hidden;
+}
+.hh{
+height:550px;
+}
+.retour{
+margin-top:10px;
+}
+.mpikambana_lisitra{
+margin:auto;
+height:250px;
+overflow:auto;
+}
+.pagination_ul{
+list-style-type:none;
+}
+.pagination_ul li{
+display:inline-block;
+float:left;
+margin-right:20px;
+}
+.takona{
+background:grey;
+opacity:0.1;
+position:absolute;
+z-index:1;
+display:block;
+}
+.takona_top{
+top:-1550px;
+}
+.loading{
+position:absolute;
+z-index:1;
+display:block;
+top:-15500px;
+}
+.loading_top{
+top:auto;
+}
+.loading img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
