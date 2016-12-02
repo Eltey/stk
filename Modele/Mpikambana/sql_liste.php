@@ -2,7 +2,7 @@
 
 include_once('modele/db.php');
 
-function listemembre($offset,$limt)
+function listemembre($offset,$limit)
 {
     
     global $bdd;

@@ -7,7 +7,7 @@
 <body>
 <h1>Page d'aceuil Stk</h1>
 
-<a href="Manampy.php"> Momba ny mpikambana</a>
+<a href="vue/mpikambana/manampy.php"> Momba ny mpikambana</a>
 <a href="index2.php"> Lisitry ny mpikambana</a>
 
 </body>

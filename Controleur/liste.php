@@ -4,7 +4,7 @@
 
 include ('Modele/Mpikambana/sql_liste.php');
 
-$listem= $listeme (0,100);
+$listem= listemembre (0,100);
 
 foreach ($listem as $cle=>$listemel)
 {
