@@ -48,7 +48,7 @@
     
     </fieldset>
     
-                   <a href="index.php"> Hiverina any amin' ny pejy Safidy</a>
+                   <a href="/../index.php"> Hiverina any amin' ny pejy Safidy</a>
     
     
     

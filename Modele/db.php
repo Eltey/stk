@@ -1,1 +1,1 @@
-<?phptry{$bdd = new PDO('mysql:host=localhost;dbname=base_stk', 'root', '');}catch(Exception $e){die('Erreur : '.$e->getMessage());}?>
+<?phptry{$bdd = new PDO('mysql:host=localhost;dbname=base_stk', 'root', '');}catch(Exception $e){die('Erreur : '.$e->getMessage());}?>

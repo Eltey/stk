@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Page d'aceuil stk</title>
-<meta charset="utf-8"/>
+<meta charset="utf-8"> </meta>
 </head>
 <body>
 <h1>Page d'aceuil Stk</h1>
