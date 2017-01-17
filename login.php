@@ -23,13 +23,13 @@
          
 
 <h2 align="center" >
-  Authentification membres   "Hitory ny anaranao amin' ny rahalahiko ao'"
+  Authentification membres   "Hitory ny anaranao amin' ny rahalahiko ao salamo 22.22a "
 </h2>
            
       <table align="center">
-          <form>
+          <form method="POST" action="index3.php" >
                     <tr>
-                             <td> <label  > Votre pseudo   </label> 
+                             <td> <label  > Anarana fiantsona   </label> 
                                
                              
                     <input type="text" name="pseudo" id="pseudo" >
@@ -42,7 +42,7 @@
                              <td> <label  > Votre email   </label> 
                                
                              
-                    <input type="mail" name="mail" id="mail" >
+                    <input type="email" name="email" id="email" >
                       
                     </input>   
                           </td>
@@ -51,7 +51,7 @@
                              <td> <label  > Votre mots de pass   </label> 
                                
                              
-                    <input type="pasword" name="mdp" id="mdp" >
+                    <input type="password" name="mdp" id="mdp" >
                               </td>
                     </input>   
                       
@@ -66,9 +66,7 @@
                                  </tr>
 <tr>
 																	<td>
-                                 <input type="submit" name="Hamorona" value="Hamorona" id="Hamorona" >
-                                   
-                                 </input>
+                                   <a href="vue/mpikambana/addlogin.php"> Hanokatra kaonty</a>
                                     
                                   </td>
                                  </tr>
@@ -80,7 +78,15 @@
       </table>
 
 
+<?php
+
+
+
+
+           ?>
          </body>
+
+
 
 
 
