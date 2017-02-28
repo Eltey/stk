@@ -1,32 +1,28 @@
 <?php
 
-
-
 $email=htmlspecialchars($_POST['email']);
 $mdp_sha=sha1($_POST['mdp']);
   
-   include('modele/Mpikambana/sql_logau.php');
+include('modele/Mpikambana/sql_logau.php');
+$req=$bdd->prepare('SELECT * FROM login WHERE Email = :email AND mdp= :mdp ');
 
-$req->execute(array ('email'=> $email, 'mdp'=>$mdp_sha));
+$req->execute(array ('email'=>$email, 'mdp'=>$mdp_sha));
 $resultat=$req->fetch();
 
-foreach($resultat as $tab)
-{
 
-echo $tab;
-}
+
 
 
 if (!$resultat)
 {
  
-echo'tsy tafiditra ' . $mdp_sha   ;
+echo'tsy tafiditra jereo tsara sode misy diso ' ;
 
 
 }  
   else
 {
-echo'tafiditra';
+header('Location: index.php');
 }
 
 

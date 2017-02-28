@@ -28,18 +28,10 @@
            
       <table align="center">
           <form method="POST" action="index3.php" >
-                    <tr>
-                             <td> <label  > Anarana fiantsona   </label> 
-                               
-                             
-                    <input type="text" name="pseudo" id="pseudo" >
-                      
-                    </input>   
-                           </td>
-                    </tr>    
+                       
                                 
                         <tr>
-                             <td> <label  > Votre email   </label> 
+                             <td> <label  > Adiresy mailaka   </label> 
                                
                              
                     <input type="email" name="email" id="email" >
@@ -48,7 +40,7 @@
                           </td>
                     </tr>    
                     <tr>
-                             <td> <label  > Votre mots de pass   </label> 
+                             <td> <label  > Teny miafina   </label> 
                                
                              
                     <input type="password" name="mdp" id="mdp" >

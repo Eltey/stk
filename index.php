@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page d'aceuil stk</title>
-<meta charset="utf-8"> </meta>
-</head>
-<body>
-<h1>Page d'aceuil Stk</h1>
+   <?php
 
-<a href="vue/mpikambana/manampy.php"> Momba ny mpikambana</a>
-<a href="index2.php"> Lisitry ny mpikambana</a>
+define('WEBROOT',str_replace('index.php','',$_SERVER['SCRIPT_NAME']));
+ define('ROOT',str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
 
-</body>
-</html>
+ require(ROOT.'core/model.php');
+require(ROOT.'core/controller.php');
+ $param=explode('/',$_GET['p']);
+
+  print_r($_GET) ;                    
+
+
+?>  
