@@ -1,1 +1,1 @@
-<?phpinclude_once('../../modele/db.php');   /* include('../../vue/mpikambana/manampy.php');*/                                      ?>
+<?phpinclude_once('modele/db.php');   /* include('../../vue/mpikambana/manampy.php');*/                                      ?>

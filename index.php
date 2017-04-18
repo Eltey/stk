@@ -1,13 +1,22 @@
-   <?php
-
-define('WEBROOT',str_replace('index.php','',$_SERVER['SCRIPT_NAME']));
- define('ROOT',str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
-
- require(ROOT.'core/model.php');
-require(ROOT.'core/controller.php');
- $param=explode('/',$_GET['p']);
-
-  print_r($_GET) ;                    
+<?php
 
 
-?>  
+include 'vue/haut.php';
+
+
+if(!empty($_GET['page']) && is_file('Controleur/'.$_GET['page'].'.php'))
+{
+    
+    
+    include'Controleur/' .$_GET['page'].'.php';
+
+}
+else
+{
+/*include 'vues/aceuil.php';*/
+echo'tsy mety mihitsy';
+}
+
+ include 'vue/bas.php';
+
+?>

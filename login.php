@@ -1,11 +1,4 @@
-  <?php
-
-   session_start();
-
-
-
-?>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title> Page de conexion</title>

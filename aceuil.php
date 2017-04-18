@@ -1,6 +1,6 @@
  <?php
-session_start();
-header('Location: login.php');
+/*session_start();
+header('Location: login.php');*/
 
 
 
@@ -14,8 +14,8 @@ header('Location: login.php');
 <body>
 <h1>Page d'aceuil Stk</h1>
 
-<a href="vue/mpikambana/manampy.php"> Momba ny mpikambana</a>
-<a href="index2.php"> Lisitry ny mpikambana</a>
+<a href="index.php?page=liste"> Momba ny lisitry ny mpikambana</a>
+<a href="vue/Mpikambana/Manampy.php"> Isoratra anarana</a>
 
 </body>
 </html>
