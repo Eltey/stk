@@ -1,5 +1,5 @@
 <?php
-  include_once('../../Modele/Mpikambana/sql_log.php'); 
+  include_once('Modele/Mpikambana/sql_log.php'); 
 
 
 $email=htmlspecialchars($_POST['email']);
@@ -21,7 +21,7 @@ if(isset($_POST['mandefa']))
 
 
 
- include_once('../../vue/mpikambana/addlogin.php');
+ include_once('login.php');
                                             }
                                                        else
                                       {

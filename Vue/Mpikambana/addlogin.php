@@ -11,7 +11,7 @@
 </head>  
 <body>
  
-<form method="POST" action="index2.php" >
+<form method="POST" action="../../index.php?page=inselog" >
  
 <table>
   

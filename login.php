@@ -20,7 +20,7 @@
 </h2>
            
       <table align="center">
-          <form method="POST" action="index3.php" >
+          <form method="POST" action="index.php?page=ctr_login" >
                        
                                 
                         <tr>
